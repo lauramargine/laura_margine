@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+ display: flex;
+ overflow: hidden;
+ background-color: #F2E2D2;
+ font-family: 'Akshar', sans-serif;
+}
+
+a {
+ color: black;
+}
+
+.foto1 {
+  margin-top: 20px;
+  margin-left: 80px;
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+}
+
+.foto2 {
+ width: 15%;
+ height: 15%;
+ margin-top: 90px;
+ margin-left: 80px;
+ border-radius: 50%;
+}
+
+.foto3 {
+  margin-top: 50px;
+  margin-left: 80px;
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+}
+
+.table1, th, td {
+ width: 90vw;
+ border: 1px solid black;
+ border-collapse: collapse;
+ font-size: 18px;
+ margin-left: 5%;
+ margin-top: 3%;
+ text-align: center;
+}
+
+table caption {
+ font-size: 25px;
+}
+
+#audioID {
+ width: 200px;
+ height: 35px;
+ display: flex;
+ float: left;
+}
+
+.audio {
+ display: inline-block;
+ width: 200px;
+ height: 35px;
+ position: absolute;
+}
+
+.header {
+ position: fixed;
+ display: inline-block;
+ width: 100%;
+ height: 100vh;
+ background-color: #ddc5ae;
+ text-align: center;
+ padding: 10px;
+ box-shadow: 0 0 12px #888888;
+}
+
+.header1 {
+ font-size: 35px;
+ display: inline-block;
+ margin-right: 220px;
+}
+
+.footer {
+ position: fixed;
+ width: 100%;
+ height: 100%;
+ background-color: #ddc5ae;
+ text-align: center;
+ padding: 10px;
+ font-size: 25px;
+ box-shadow: 0 0 12px #888888;
+}
+
+.instagram {
+ display: inline-block;
+ margin-top: 5px;
+}
+
+.instagram1 {
+ display: inline-flex;
+ margin-left: 30px;
+ text-decoration: none;
+ color: #0645AD;
+}
+.ol1 {
+ margin-left: 100px;
+ margin-top: 3%;
+ font-size: 26px;
+ list-style: upper-roman;
+}
+
+.ul1 {
+ margin-left: 25px;
+ font-size: 23px;
+ list-style: disc;
+}
+
+/* Instagram loggo */
+
+ /* main box of insta */  
+ .insta {  
+  width: 40px;  
+  height: 40px;  
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);  
+  border-radius: 9.34px;  
+  display: grid;  
+  place-items: center;
+  margin-left: 45%;  
+}
+
+/* innerbox in insta box */  
+.innerbox {  
+ width: 32px;  
+ height: 32px;  
+ border: 3.2px solid #fff;  
+ border-radius: 8.53px;  
+ display: grid;  
+ place-items: center;  
+ position: relative;  
+}
+
+/* center circle of insta */  
+.innerbox::before {  
+ content: '';  
+ width: 12px;  
+ height: 12px;  
+ border: 2.66px solid #fff;  
+ border-radius: 50%;  
+ background: transparent;  
+ position: absolute;  
+}  
+/* top right circle of insta */  
+.innerbox::after {  
+ content: '';  
+ width: 2px;  
+ height: 2px;  
+ border: 0.53px solid #fff;  
+ border-radius: 50%;  
+ background: #fff;  
+ position: absolute;  
+ top: 2.13px;  
+ right: 2px;  
+}  
